@@ -13,7 +13,7 @@ main(int argc, char *argv[])
   if (argc != 2) {
     fprintf(stderr, "%s\n%s\n",
             "ArgumentError: must be an argument.",
-            "Usage: make && ./mireclutter FILE");
+            "Usage: make && ./pixclutter FILE");
     return 1;
   }
 
