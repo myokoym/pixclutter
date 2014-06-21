@@ -1,4 +1,4 @@
-# Pixclutter
+# Pixlutter
 
 The jolly file viewer for pictures by Clutter.
 
@@ -22,7 +22,7 @@ The jolly file viewer for pictures by Clutter.
 
 ## License
 
-Copyright (c) 2014 Pixclutter Project
+Copyright (c) 2014 Pixlutter Project
 
 GPLv2 or later.
 

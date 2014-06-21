@@ -1,5 +1,5 @@
-PROGRAM = pixclutter
-OBJS    = pixclutter.o
+PROGRAM = pixlutter
+OBJS    = pixlutter.o
 CC      = gcc
 CFLAGS  += -Wall -g $(shell pkg-config --cflags clutter-1.0)
 LDFLAGS += -Wall -g
