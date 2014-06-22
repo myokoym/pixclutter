@@ -12,6 +12,11 @@ The jolly file viewer for pictures by Clutter.
 
 ## Usage
 
+### Configure
+
+    % ./autogen.sh
+    % ./configure
+
 ### Build
 
     % make
@@ -19,6 +24,10 @@ The jolly file viewer for pictures by Clutter.
 ### Run
 
     % ./pixclutter FILE
+
+### Run test
+
+    % test/run-test.sh
 
 ## License
 
