@@ -1,5 +1,5 @@
 #include <cutter.h>
-#include <window.h>
+#include <pixlutter/window.h>
 
 void test_new_window(void);
 
