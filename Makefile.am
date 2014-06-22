@@ -1,6 +1,6 @@
 ACLOCAL_AMFLAGS = $$ACLOCAL_ARGS
 
-SUBDIRS = src
+SUBDIRS = src test
 
 LDFLAGS = -Wall -g -no-undefined
 CFLAGS  = -Wall -g $(shell pkg-config --cflags clutter-1.0)
