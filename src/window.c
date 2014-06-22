@@ -22,7 +22,6 @@ pixlutter_window_new(char *filepath)
 void
 pixlutter_window_free(PixlutterWindow *window)
 {
-  free(window->filepath);
   free(window);
 }
 
