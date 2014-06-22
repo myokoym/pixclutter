@@ -27,6 +27,8 @@ The jolly file viewer for pictures by Clutter.
 
 ### Run test
 
+Require [Cutter](http://cutter.sourceforge.net/).
+
     % test/run-test.sh
 
 ## License
