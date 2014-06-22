@@ -23,7 +23,7 @@ The jolly file viewer for pictures by Clutter.
 
 ### Run
 
-    % ./pixclutter FILE
+    % ./pixlutter FILE
 
 ### Run test
 

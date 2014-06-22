@@ -10,7 +10,7 @@ main(int argc, char *argv[])
   if (argc != 2) {
     fprintf(stderr, "%s\n%s\n",
             "ArgumentError: must be an argument.",
-            "Usage: make && ./pixclutter FILE");
+            "Usage: make && ./pixlutter FILE");
     return 1;
   }
 
