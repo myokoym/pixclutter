@@ -9,6 +9,7 @@ pixlutter
 *.gcno
 *.gcda
 .deps
+.dirstamp
 .ditz-config
 .gdb_history
 .libs
