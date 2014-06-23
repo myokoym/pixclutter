@@ -41,3 +41,4 @@ test-driver
 test/run-test.sh.log
 test/run-test.sh.trs
 test/test-suite.log
+/*.tar.gz
