@@ -21,9 +21,20 @@ The jolly file viewer for pictures by Clutter.
 
     % make
 
-### Run
+### Run (not install)
 
-    % ./pixlutter FILE
+    % ./src/pixlutter FILE
+
+### Install
+
+`/usr/local` will be used as the default.
+
+    % sudo make install
+
+### Run (installed)
+
+    % export LD_LIBRARY_PATH=/usr/local/lib  # optional
+    % pixlutter FILE
 
 ### Run test
 
