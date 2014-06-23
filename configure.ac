@@ -14,6 +14,8 @@ AM_CONDITIONAL([WITH_CUTTER], [test "$ac_cv_use_cutter" != "no"])
 m4_ifdef([AC_CHECK_COVERAGE], [AC_CHECK_COVERAGE])
 
 AC_CONFIG_FILES([Makefile
+                 include/Makefile
+                 include/pixlutter/Makefile
                  lib/Makefile
                  src/Makefile
                  test/Makefile])

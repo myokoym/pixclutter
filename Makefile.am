@@ -1,3 +1,3 @@
 ACLOCAL_AMFLAGS = $$ACLOCAL_ARGS
 
-SUBDIRS = lib src test
+SUBDIRS = include lib src test
