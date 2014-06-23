@@ -15,6 +15,7 @@ m4_ifdef([AC_CHECK_COVERAGE], [AC_CHECK_COVERAGE])
 
 AC_CONFIG_FILES([Makefile
                  lib/Makefile
+                 src/Makefile
                  test/Makefile])
 
 AC_OUTPUT
