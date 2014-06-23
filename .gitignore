@@ -1,4 +1,4 @@
-pixlutter
+/src/pixlutter
 *.la
 *.lo
 *.o
