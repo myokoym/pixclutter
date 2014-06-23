@@ -4,7 +4,7 @@ LDFLAGS = -Wall -g -no-undefined
 CFLAGS  = -Wall -g $(shell pkg-config --cflags clutter-1.0)
 LIBS    = $(shell pkg-config --libs clutter-1.0)
 
-libpixlutter_la_SOURCES = window.c window.h
+libpixlutter_la_SOURCES = window.c
 
 DEFAULT_INCLUDES = \
 	-I$(top_builddir)/include \

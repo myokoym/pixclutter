@@ -42,6 +42,10 @@ Require [Cutter](http://cutter.sourceforge.net/).
 
     % test/run-test.sh
 
+### Archive (.tar.gz)
+
+    % make dist
+
 ## License
 
 Copyright (c) 2014 Pixlutter Project
