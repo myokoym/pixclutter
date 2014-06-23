@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "pixlutter/window.h"
+#include "pixlutter.h"
 
 int
 main(int argc, char *argv[])

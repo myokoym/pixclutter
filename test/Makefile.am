@@ -5,8 +5,8 @@ TESTS_ENVIRONMENT = NOMAKE=yes CUTTER="$(CUTTER)"
 noinst_LTLIBRARIES = test_pixlutter.la
 endif
 
-INCLUDES = $(CUTTER_CFLAGS) -I$(top_srcdir)/src
-LIBS = $(CUTTER_LIBS) $(top_builddir)/src/libpixlutter.la
+INCLUDES = $(CUTTER_CFLAGS) -I$(top_srcdir)/include
+LIBS = $(CUTTER_LIBS) $(top_builddir)/lib/libpixlutter.la
 
 LDFLAGS = -module -rpath $(libdir) -avoid-version -no-undefined
 
