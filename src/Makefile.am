@@ -4,7 +4,7 @@ LDFLAGS = -Wall -g -no-undefined
 CFLAGS  = -Wall -g $(CLUTTER_CFLAGS)
 LIBS    = $(CLUTTER_LIBS)
 
-pixlutter_SOURCES = pixlutter.c
+pixlutter_SOURCES = pixlutter.c pixlutter.h
 
 DEFAULT_INCLUDES = \
 	-I$(top_srcdir)/include
