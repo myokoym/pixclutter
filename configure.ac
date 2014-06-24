@@ -13,6 +13,8 @@ AM_CONDITIONAL([WITH_CUTTER], [test "$ac_cv_use_cutter" != "no"])
 
 m4_ifdef([AC_CHECK_COVERAGE], [AC_CHECK_COVERAGE])
 
+PKG_CHECK_MODULES(CLUTTER, clutter-1.0)
+
 AC_CONFIG_FILES([Makefile
                  include/Makefile
                  include/pixlutter/Makefile

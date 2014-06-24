@@ -1,8 +1,8 @@
 lib_LTLIBRARIES = libpixlutter.la
 
 LDFLAGS = -Wall -g -no-undefined
-CFLAGS  = -Wall -g $(shell pkg-config --cflags clutter-1.0)
-LIBS    = $(shell pkg-config --libs clutter-1.0)
+CFLAGS  = -Wall -g $(CLUTTER_CFLAGS)
+LIBS    = $(CLUTTER_LIBS)
 
 libpixlutter_la_SOURCES = window.c
 
