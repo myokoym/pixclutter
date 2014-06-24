@@ -31,6 +31,10 @@ The jolly file viewer for pictures by Clutter.
 
     % sudo make install
 
+### Uninstall
+
+    % sudo make uninstall
+
 ### Run (installed)
 
     % export LD_LIBRARY_PATH=/usr/local/lib  # optional
